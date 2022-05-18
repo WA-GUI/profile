@@ -1,0 +1,120 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+  background-color: #EDE6DB;
+  font-family: "fira sans";
+  color: #1A3C40;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  color: #1D5C63;
+  line-height: 60px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 24px;
+  color: #417D7A;
+  opacity: 0.5;
+}
+
+ul li {
+  display: inline-block
+}
+
+img {
+  height: 100px;
+  border-radius: 50%;
+  margin: 40px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-ghost {
+  color: black;
+  border: 1px solid #1A3C40;
+  padding: 8px 24px;
+  margin-top: 30px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  width: 60px;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.footer {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
